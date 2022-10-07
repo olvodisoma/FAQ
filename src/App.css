@@ -1,6 +1,27 @@
+.main{
+  display: grid;
+  height: 100vh;
+}
 .container{
   background-color: white;
+  border-radius: 10px;
+  place-self: center;
 }
 html,body,#root{
   background-color: purple;
+}
+*{
+  box-sizing: border-box !important;
+}
+.gomb{
+  min-width: 30px!important;
+  min-height: 30px!important;
+  font-weight: bold!important;
+  color:red!important;
+  background-color: rgb(252, 241, 241)!important;
+}
+.doboz{
+  width: 95%!important;
+  border-radius: 10px;
+  box-shadow: 0 4 8px 0 rgba(0, 0, 0, 2), 0 6px 20px 0 rgba(0, 0, 0, 19);
 }
